@@ -6,7 +6,7 @@ import Heading from 'components/Heading'
 import * as S from './styles'
 import { SectionFaqProps } from 'types/api'
 
-const SectionFaq: React.FR<SectionFaqProps> = ({ title, questions }) => (
+const SectionFaq: React.FC<SectionFaqProps> = ({ title, questions }) => (
   <S.Wrapper>
     <S.Content>
       <Container>
